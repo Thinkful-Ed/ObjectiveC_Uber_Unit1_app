@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F330C0C1B4052F900B446A1 /* StringsExercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F330C0B1B4052F900B446A1 /* StringsExercises.m */; };
+		4F330C0E1B4061C100B446A1 /* StringsExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F330C0D1B4061C100B446A1 /* StringsExercisesTests.m */; };
+		4F445AEF1B40B0E5003ED26E /* EqualityandComparatorsExercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F445AEE1B40B0E5003ED26E /* EqualityandComparatorsExercises.m */; };
+		4F445AF21B40B617003ED26E /* EqualityandComparatorsExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F445AF11B40B617003ED26E /* EqualityandComparatorsExercisesTests.m */; };
+		4F445AF51B40F1BA003ED26E /* ArraysExercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F445AF41B40F1BA003ED26E /* ArraysExercises.m */; };
+		4F5554AC1B430C960017BD26 /* DictionariesExercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5554AB1B430C960017BD26 /* DictionariesExercises.m */; };
+		4F5554B01B43162D0017BD26 /* DictionariesExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5554AF1B43162D0017BD26 /* DictionariesExercisesTests.m */; };
+		4FBAF1721B36488600E89CE1 /* PrimitivesExercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBAF1711B36488600E89CE1 /* PrimitivesExercises.m */; };
+		4FBAF1741B36499F00E89CE1 /* PrimitivesExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBAF1731B36499F00E89CE1 /* PrimitivesExercisesTests.m */; };
+		4FED50991B41A330004124BF /* ArraysExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FED50981B41A330004124BF /* ArraysExercisesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F330C0A1B4052DC00B446A1 /* StringsExercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringsExercises.h; sourceTree = "<group>"; };
+		4F330C0B1B4052F900B446A1 /* StringsExercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringsExercises.m; sourceTree = "<group>"; };
+		4F330C0D1B4061C100B446A1 /* StringsExercisesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringsExercisesTests.m; sourceTree = "<group>"; };
+		4F445AEE1B40B0E5003ED26E /* EqualityandComparatorsExercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityandComparatorsExercises.m; sourceTree = "<group>"; };
+		4F445AF01B40B115003ED26E /* EqualityandComparatorsExercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualityandComparatorsExercises.h; sourceTree = "<group>"; };
+		4F445AF11B40B617003ED26E /* EqualityandComparatorsExercisesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityandComparatorsExercisesTests.m; sourceTree = "<group>"; };
+		4F445AF31B40F1AA003ED26E /* ArraysExercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraysExercises.h; sourceTree = "<group>"; };
+		4F445AF41B40F1BA003ED26E /* ArraysExercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraysExercises.m; sourceTree = "<group>"; };
+		4F5554AA1B430C6F0017BD26 /* DictionariesExercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionariesExercises.h; sourceTree = "<group>"; };
+		4F5554AB1B430C960017BD26 /* DictionariesExercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionariesExercises.m; sourceTree = "<group>"; };
+		4F5554AF1B43162D0017BD26 /* DictionariesExercisesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionariesExercisesTests.m; sourceTree = "<group>"; };
+		4F8E6B171B3261D5006C662E /* UberObjectiveC.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberObjectiveC.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8E6B1C1B3261D5006C662E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBAF1701B36477600E89CE1 /* PrimitivesExercises.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimitivesExercises.h; sourceTree = "<group>"; };
+		4FBAF1711B36488600E89CE1 /* PrimitivesExercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitivesExercises.m; sourceTree = "<group>"; };
+		4FBAF1731B36499F00E89CE1 /* PrimitivesExercisesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitivesExercisesTests.m; sourceTree = "<group>"; };
+		4FED50981B41A330004124BF /* ArraysExercisesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraysExercisesTests.m; sourceTree = "<group>"; };
+		4FFD18581B3365E900C59AF7 /* UberObjectiveC-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UberObjectiveC-PrefixHeader.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8E6B141B3261D5006C662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8E6AF51B3261D4006C662E = {
+			isa = PBXGroup;
+			children = (
+				4F8E6B1A1B3261D5006C662E /* UberObjectiveC */,
+				4F8E6B1B1B3261D5006C662E /* Supporting Files */,
+				4F8E6AFF1B3261D4006C662E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8E6AFF1B3261D4006C662E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E6B171B3261D5006C662E /* UberObjectiveC.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8E6B1A1B3261D5006C662E /* UberObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				4FBAF16F1B36471300E89CE1 /* Primitive Data Types */,
+				4F93E5E01B33B6FA00A11B75 /* Strings */,
+				4FFD18631B336F1800C59AF7 /* Equality and Comparisons */,
+				4FFD18541B3362FE00C59AF7 /* Arrays */,
+				4FFD18551B33634B00C59AF7 /* Dictionaries */,
+			);
+			name = UberObjectiveC;
+			path = UberObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		4F8E6B1B1B3261D5006C662E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E6B1C1B3261D5006C662E /* Info.plist */,
+				4FFD18581B3365E900C59AF7 /* UberObjectiveC-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			path = UberObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		4F93E5E01B33B6FA00A11B75 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				4F330C0A1B4052DC00B446A1 /* StringsExercises.h */,
+				4F330C0B1B4052F900B446A1 /* StringsExercises.m */,
+				4F330C0D1B4061C100B446A1 /* StringsExercisesTests.m */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+		4FBAF16F1B36471300E89CE1 /* Primitive Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				4FBAF1701B36477600E89CE1 /* PrimitivesExercises.h */,
+				4FBAF1711B36488600E89CE1 /* PrimitivesExercises.m */,
+				4FBAF1731B36499F00E89CE1 /* PrimitivesExercisesTests.m */,
+			);
+			name = "Primitive Data Types";
+			sourceTree = "<group>";
+		};
+		4FFD18541B3362FE00C59AF7 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				4F445AF31B40F1AA003ED26E /* ArraysExercises.h */,
+				4F445AF41B40F1BA003ED26E /* ArraysExercises.m */,
+				4FED50981B41A330004124BF /* ArraysExercisesTests.m */,
+			);
+			name = Arrays;
+			sourceTree = "<group>";
+		};
+		4FFD18551B33634B00C59AF7 /* Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				4F5554AA1B430C6F0017BD26 /* DictionariesExercises.h */,
+				4F5554AB1B430C960017BD26 /* DictionariesExercises.m */,
+				4F5554AF1B43162D0017BD26 /* DictionariesExercisesTests.m */,
+			);
+			name = Dictionaries;
+			sourceTree = "<group>";
+		};
+		4FFD18631B336F1800C59AF7 /* Equality and Comparisons */ = {
+			isa = PBXGroup;
+			children = (
+				4F445AF01B40B115003ED26E /* EqualityandComparatorsExercises.h */,
+				4F445AEE1B40B0E5003ED26E /* EqualityandComparatorsExercises.m */,
+				4F445AF11B40B617003ED26E /* EqualityandComparatorsExercisesTests.m */,
+			);
+			name = "Equality and Comparisons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8E6B161B3261D5006C662E /* UberObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8E6B241B3261D5006C662E /* Build configuration list for PBXNativeTarget "UberObjectiveC" */;
+			buildPhases = (
+				4F8E6B131B3261D5006C662E /* Sources */,
+				4F8E6B141B3261D5006C662E /* Frameworks */,
+				4F8E6B151B3261D5006C662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberObjectiveC;
+			productName = UberObjectiveCTests;
+			productReference = 4F8E6B171B3261D5006C662E /* UberObjectiveC.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8E6AF61B3261D4006C662E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Thinkful;
+				TargetAttributes = {
+					4F8E6B161B3261D5006C662E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F8E6AF91B3261D4006C662E /* Build configuration list for PBXProject "UberObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8E6AF51B3261D4006C662E;
+			productRefGroup = 4F8E6AFF1B3261D4006C662E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8E6B161B3261D5006C662E /* UberObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8E6B151B3261D5006C662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8E6B131B3261D5006C662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBAF1721B36488600E89CE1 /* PrimitivesExercises.m in Sources */,
+				4F5554B01B43162D0017BD26 /* DictionariesExercisesTests.m in Sources */,
+				4FED50991B41A330004124BF /* ArraysExercisesTests.m in Sources */,
+				4F445AF51B40F1BA003ED26E /* ArraysExercises.m in Sources */,
+				4F445AEF1B40B0E5003ED26E /* EqualityandComparatorsExercises.m in Sources */,
+				4FBAF1741B36499F00E89CE1 /* PrimitivesExercisesTests.m in Sources */,
+				4F445AF21B40B617003ED26E /* EqualityandComparatorsExercisesTests.m in Sources */,
+				4F5554AC1B430C960017BD26 /* DictionariesExercises.m in Sources */,
+				4F330C0E1B4061C100B446A1 /* StringsExercisesTests.m in Sources */,
+				4F330C0C1B4052F900B446A1 /* StringsExercises.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F8E6B1F1B3261D5006C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8E6B201B3261D5006C662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8E6B251B3261D5006C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = UberObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8E6B261B3261D5006C662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = UberObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8E6AF91B3261D4006C662E /* Build configuration list for PBXProject "UberObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8E6B1F1B3261D5006C662E /* Debug */,
+				4F8E6B201B3261D5006C662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8E6B241B3261D5006C662E /* Build configuration list for PBXNativeTarget "UberObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8E6B251B3261D5006C662E /* Debug */,
+				4F8E6B261B3261D5006C662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8E6AF61B3261D4006C662E /* Project object */;
+}

@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+t-build
+xcuserdata
+DerivedData
+*.xccheckout
+xcuserdata/*
+*.xcuserstate
